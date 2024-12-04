@@ -1,0 +1,129 @@
+﻿full_id,unique_id,source_plot,source_plot_label,buried_plot,plant,treatment ,depth_cm,mesh_size_µm,subsample,initial_mass_roots_g,end_mass_roots_g,mass_lost_g
+DJ_001_C.lax_8M_sourceM_mesh20_ss1,DJ_001,C_laxum_M,M,M,grass,home,5.08,20,ss1,2.03,1.32,0.71
+DJ_002_C.lax_8M_sourceM_mesh20_ss2,DJ_002,C_laxum_M,M,M,grass,home,5.08,20,ss2,2.03,1.19,0.84
+DJ_003_C.lax_8M_sourceM_mesh200_ss1,DJ_003,C_laxum_M,M,M,grass,home,5.08,200,ss1,2.03,1.25,0.78
+DJ_004_C.lax_8M_sourceM_mesh200_ss2,DJ_004,C_laxum_M,M,M,grass,home,5.08,200,ss2,2.01,1.41,0.6
+DJ_005_C.lax_8M_sourceMF_mesh20_ss1,DJ_005,C_laxum_MF,MF,M,grass,away ,5.08,20,ss1,2.04,1.49,0.55
+DJ_006_C.lax_8M_sourceMF_mesh20_ss2,DJ_006,C_laxum_MF,MF,M,grass,away ,5.08,20,ss2,2.02,1.34,0.68
+DJ_007_C.lax_8M_sourceMF_mesh200_ss1,DJ_007,C_laxum_MF,MF,M,grass,away ,5.08,200,ss1,2.04,1.23,0.81
+DJ_008_C.lax_8M_sourceMF_mesh200_ss2,DJ_008,C_laxum_MF,MF,M,grass,away ,5.08,200,ss2,2.08,0.58,1.5
+DJ_009_C.lax_8MF_sourceM_mesh20_ss1,DJ_009,C_laxum_M,M,MF,grass,away ,5.08,20,ss1,2.07,1.18,0.89
+DJ_010_C.lax_8MF_sourceM_mesh20_ss2,DJ_010,C_laxum_M,M,MF,grass,away ,5.08,20,ss2,2.06,1.44,0.62
+DJ_011_C.lax_8MF_sourceM_mesh200_ss1,DJ_011,C_laxum_M,M,MF,grass,away ,5.08,200,ss1,2.03,1.39,0.64
+DJ_012_C.lax_8MF_sourceM_mesh200_ss2,DJ_012,C_laxum_M,M,MF,grass,away ,5.08,200,ss2,2.01,1.2,0.81
+DJ_013_C.lax_8MF_sourceMF_mesh20_ss1,DJ_013,C_laxum_MF,MF,MF,grass,home,5.08,20,ss1,2.01,1.38,0.63
+DJ_014_C.lax_8MF_sourceMF_mesh20_ss2,DJ_014,C_laxum_MF,MF,MF,grass,home,5.08,20,ss2,2.08,1.29,0.79
+DJ_015_C.lax_8MF_sourceMF_mesh200_ss1,DJ_015,C_laxum_MF,MF,MF,grass,home,5.08,200,ss1,2.06,1.37,0.69
+DJ_016_C.lax_8MF_sourceMF_mesh200_ss2,DJ_016,C_laxum_MF,MF,MF,grass,home,5.08,200,ss2,2.04,1.35,0.69
+DJ_017_R.cop_8M_sourceM_mesh20_ss1,DJ_017,R_cop_M,M,M,shrub,home,5.08,20,ss1,2.02,1.46,0.56
+DJ_018_R.cop_8M_sourceM_mesh20_ss2,DJ_018,R_cop_M,M,M,shrub,home,5.08,20,ss2,2.01,1.1,0.91
+DJ_019_R.cop_8M_sourceM_mesh200_ss1,DJ_019,R_cop_M,M,M,shrub,home,5.08,200,ss1,2.06,1.43,0.63
+DJ_020_R.cop_8M_sourceM_mesh200_ss2,DJ_020,R_cop_M,M,M,shrub,home,5.08,200,ss2,2.04,1.36,0.68
+DJ_021_R.cop_8M_sourceMF_mesh20_ss1,DJ_021,R_cop_MF,MF,M,shrub,away ,5.08,20,ss1,2.06,1.11,0.95
+DJ_022_R.cop_8M_sourceMF_mesh20_ss2,DJ_022,R_cop_MF,MF,M,shrub,away ,5.08,20,ss2,2.04,1.28,0.76
+DJ_023_R.cop_8M_sourceMF_mesh200_ss1,DJ_023,R_cop_MF,MF,M,shrub,away ,5.08,200,ss1,2,0.94,1.06
+DJ_024_R.cop_8M_sourceMF_mesh200_ss2,DJ_024,R_cop_MF,MF,M,shrub,away ,5.08,200,ss2,2.08,0.92,1.16
+DJ_025_R.cop_8MF_sourceM_mesh20_ss1,DJ_025,R_cop_M,M,MF,shrub,away ,5.08,20,ss1,2.06,1.41,0.65
+DJ_026_R.cop_8MF_sourceM_mesh20_ss2,DJ_026,R_cop_M,M,MF,shrub,away ,5.08,20,ss2,2.06,1.4,0.66
+DJ_027_R.cop_8MF_sourceM_mesh200_ss1,DJ_027,R_cop_M,M,MF,shrub,away ,5.08,200,ss1,2.07,1.47,0.6
+DJ_028_R.cop_8MF_sourceM_mesh200_ss2,DJ_028,R_cop_M,M,MF,shrub,away ,5.08,200,ss2,2.08,1.13,0.95
+DJ_029_R.cop_8MF_sourceMF_mesh20_ss1,DJ_029,R_cop _MF,MF,MF,shrub,home,5.08,20,ss1,2,0.85,1.15
+DJ_030_R.cop_8MF_sourceMF_mesh20_ss2,DJ_030,R_cop_MF,MF,MF,shrub,home,5.08,20,ss2,2.06,0.76,1.3
+DJ_031_R.cop_8MF_sourceMF_mesh200_ss1,DJ_031,R_cop_MF,MF,MF,shrub,home,5.08,200,ss1,2.05,1.25,0.8
+DJ_032_R.cop_8MF_sourceMF_mesh200_ss2,DJ_032,R_cop_MF,MF,MF,shrub,home,5.08,200,ss2,2.06,1.13,0.93
+DJ_033_C.lax_6M_sourceM_mesh20_ss1,DJ_033,C_ laxum_M,M,M,grass,home,5.08,20,ss1,2,1.46,0.54
+DJ_034_C.lax_6M_sourceM_mesh20_ss2,DJ_034,C_ laxum_M,M,M,grass,home,5.08,20,ss2,2.08,1.21,0.87
+DJ_035_C.lax_6M_sourceM_mesh200_ss1,DJ_035,C_ laxum_M,M,M,grass,home,5.08,200,ss1,2.07,1.35,0.72
+DJ_036_C.lax_6M_sourceM_mesh200_ss2,DJ_036,C_ laxum_M,M,M,grass,home,5.08,200,ss2,2.05,1.47,0.58
+DJ_037_C.lax_6M_sourceMF_mesh20_ss1,DJ_037,C_laxum_MF,MF,M,grass,away ,5.08,20,ss1,2.03,1.33,0.7
+DJ_038_C.lax_6M_sourceMF_mesh20_ss2,DJ_038,C_laxum_MF,MF,M,grass,away ,5.08,20,ss2,2.02,1.54,0.48
+DJ_039_C.lax_6M_sourceMF_mesh200_ss1,DJ_039,C_laxum_MF,MF,M,grass,away ,5.08,200,ss1,2.08,1.12,0.96
+DJ_040_C.lax_6M_sourceMF_mesh200_ss2,DJ_040,C_laxum_MF,MF,M,grass,away ,5.08,200,ss2,2.09,0.72,1.37
+DJ_041_C.lax_6MF_sourceM_mesh20_ss1,DJ_041,C_laxum_M,M,MF,grass,away ,5.08,20,ss1,2.08,1.23,0.85
+DJ_042_C.lax_6MF_sourceM_mesh20_ss2,DJ_042,C_laxum_M,M,MF,grass,away ,5.08,20,ss2,2.07,1.48,0.59
+DJ_043_C.lax_6MF_sourceM_mesh200_ss1,DJ_043,C_laxum_M,M,MF,grass,away ,5.08,200,ss1,2.01,1.39,0.62
+DJ_044_C.lax_6MF_sourceM_mesh200_ss2,DJ_044,C_laxum_M,M,MF,grass,away ,5.08,200,ss2,2.02,1.28,0.74
+DJ_045_C.lax_6MF_sourceMF_mesh20_ss1,DJ_045,C_laxum_MF,MF,MF,grass,home,5.08,20,ss1,2.08,1.3,0.78
+DJ_046_C.lax_6MF_sourceMF_mesh20_ss2,DJ_046,C_laxum_MF,MF,MF,grass,home,5.08,20,ss2,2.02,1.19,0.83
+DJ_047_C.lax_6MF_sourceMF_mesh200_ss1,DJ_047,C_laxum_MF,MF,MF,grass,home,5.08,200,ss1,2.03,1.31,0.72
+DJ_048_C.lax_6MF_sourceMF_mesh200_ss2,DJ_048,C_laxum_MF,MF,MF,grass,home,5.08,200,ss2,2.09,1.15,0.94
+DJ_049_R.cop_6M_sourceM_mesh20_ss1,DJ_049,R_cop_M,M,M,shrub,home,5.08,20,ss1,2.03,1.64,0.39
+DJ_050_R.cop_6M_sourceM_mesh20_ss2,DJ_050,R_cop_M,M,M,shrub,home,5.08,20,ss2,2.03,1.17,0.86
+DJ_051_R.cop_6M_sourceM_mesh200_ss1,DJ_051,R_cop_M,M,M,shrub,home,5.08,200,ss1,2,1.42,0.58
+DJ_052_R.cop_6M_sourceM_mesh200_ss2,DJ_052,R_cop_M,M,M,shrub,home,5.08,200,ss2,2.04,1.36,0.68
+DJ_053_R.cop_6M_sourceMF_mesh20_ss1,DJ_053,R_cop_MF,MF,M,shrub,away ,5.08,20,ss1,2.01,1.11,0.9
+DJ_054_R.cop_6M_sourceMF_mesh20_ss2,DJ_054,R_cop_MF,MF,M,shrub,away ,5.08,20,ss2,2,1.24,0.76
+DJ_055_R.cop_6M_sourceMF_mesh200_ss1,DJ_055,R_cop_MF,MF,M,shrub,away ,5.08,200,ss1,2,0.94,1.06
+DJ_056_R.cop_6M_sourceMF_mesh200_ss2,DJ_056,R_cop_MF,MF,M,shrub,away ,5.08,200,ss2,2.01,0.96,1.05
+DJ_057_R.cop_6MF_sourceM_mesh20_ss1,DJ_057,R_cop_M,M,MF,shrub,away ,5.08,20,ss1,2.06,1.31,0.75
+DJ_058_R.cop_6MF_sourceM_mesh20_ss2,DJ_058,R_cop_M,M,MF,shrub,away ,5.08,20,ss2,2.08,1.44,0.64
+DJ_059_R.cop_6MF_sourceM_mesh200_ss1,DJ_059,R_cop_M,M,MF,shrub,away ,5.08,200,ss1,2.02,1.57,0.45
+DJ_060_R.cop_6MF_sourceM_mesh200_ss2,DJ_060,R_cop_M,M,MF,shrub,away ,5.08,200,ss2,2.02,1.13,0.89
+DJ_061_R.cop_6MF_sourceMF_mesh20_ss1,DJ_061,R_cop_MF,MF,MF,shrub,home,5.08,20,ss1,2.02,0.88,1.14
+DJ_062_R.cop_6MF_sourceMF_mesh20_ss2,DJ_062,R_cop_MF,MF,MF,shrub,home,5.08,20,ss2,2,0.73,1.27
+DJ_063_R.cop_6MF_sourceMF_mesh200_ss1,DJ_063,R_cop_MF,MF,MF,shrub,home,5.08,200,ss1,2.04,1.22,0.82
+DJ_064_R.cop_6MF_sourceMF_mesh200_ss2,DJ_064,R_cop_MF,MF,MF,shrub,home,5.08,200,ss2,2.08,1.1,0.98
+DJ_065_C.lax_4M_sourceM_mesh20_ss1,DJ_065,C_laxum_M,M,M,grass,home,5.08,20,ss1,2.01,1.57,0.44
+DJ_066_C.lax_4M_sourceM_mesh20_ss2,DJ_066,C_laxum_M,M,M,grass,home,5.08,20,ss2,2.02,1,1.02
+DJ_067_C.lax_4M_sourceM_mesh200_ss1,DJ_067,C_laxum_M,M,M,grass,home,5.08,200,ss1,2,1.23,0.77
+DJ_068_C.lax_4M_sourceM_mesh200_ss2,DJ_068,C_laxum_M,M,M,grass,home,5.08,200,ss2,2.03,1.45,0.58
+DJ_069_C.lax_4M_sourceMF_mesh20_ss1,DJ_069,C_laxum_MF,MF,M,grass,away ,5.08,20,ss1,2.05,1.61,0.44
+DJ_070_C.lax_4M_sourceMF_mesh20_ss2,DJ_070,C_laxum_MF,MF,M,grass,away ,5.08,20,ss2,2.03,1.14,0.89
+DJ_071_C.lax_4M_sourceMF_mesh200_ss1,DJ_071,C_laxum_MF,MF,M,grass,away ,5.08,200,ss1,2.02,1.29,0.73
+DJ_072_C.lax_4M_sourceMF_mesh200_ss2,DJ_072,C_laxum_MF,MF,M,grass,away ,5.08,200,ss2,2.06,0.48,1.58
+DJ_073_C.lax_4MF_sourceM_mesh20_ss1,DJ_073,C_laxum_M,M,MF,grass,away ,5.08,20,ss1,2,1.11,0.89
+DJ_074_C.lax_4MF_sourceM_mesh20_ss2,DJ_074,C_laxum_M,M,MF,grass,away ,5.08,20,ss2,2.01,1.37,0.64
+DJ_075_C.lax_4MF_sourceM_mesh200_ss1,DJ_075,C_laxum_M,M,MF,grass,away ,5.08,200,ss1,2.02,1.29,0.73
+DJ_076_C.lax_4MF_sourceM_mesh200_ss2,DJ_076,C_laxum_M,M,MF,grass,away ,5.08,200,ss2,2.08,1.12,0.96
+DJ_077_C.lax_4MF_sourceMF_mesh20_ss1,DJ_077,C_laxum_MF,MF,MF,grass,home,5.08,20,ss1,2.06,1.33,0.73
+DJ_078_C.lax_4MF_sourceMF_mesh20_ss2,DJ_078,C_laxum_MF,MF,MF,grass,home,5.08,20,ss2,2,1.29,0.71
+DJ_079_C.lax_4MF_sourceMF_mesh200_ss1,DJ_079,C_laxum_MF,MF,MF,grass,home,5.08,200,ss1,2.04,1.38,0.66
+DJ_080_C.lax_4MF_sourceMF_mesh200_ss2,DJ_080,C_laxum_MF,MF,MF,grass,home,5.08,200,ss2,2.06,1.87,0.19
+DJ_081_R.cop_4M_sourceM_mesh20_ss1,DJ_081,R_cop_M,M,M,shrub,home,5.08,20,ss1,2.03,1.42,0.61
+DJ_082_R.cop_4M_sourceM_mesh20_ss2,DJ_082,R_cop_M,M,M,shrub,home,5.08,20,ss2,2.06,1.1,0.96
+DJ_083_R.cop_4M_sourceM_mesh200_ss1,DJ_083,R_cop_M,M,M,shrub,home,5.08,200,ss1,2,1.19,0.81
+DJ_084_R.cop_4M_sourceM_mesh200_ss2,DJ_084,R_cop_M,M,M,shrub,home,5.08,200,ss2,2.01,1.46,0.55
+DJ_085_R.cop_4M_sourceMF_mesh20_ss1,DJ_085,R_cop_MF,MF,M,shrub,away ,5.08,20,ss1,2.02,1.11,0.91
+DJ_086_R.cop_4M_sourceMF_mesh20_ss2,DJ_086,R_cop_MF,MF,M,shrub,away ,5.08,20,ss2,2.04,1.78,0.26
+DJ_087_R.cop_4M_sourceMF_mesh200_ss1,DJ_087,R_cop_MF,MF,M,shrub,away ,5.08,200,ss1,2,0.91,1.09
+DJ_088_R.cop_4M_sourceMF_mesh200_ss2,DJ_088,R_cop_MF,MF,M,shrub,away ,5.08,200,ss2,2.08,0.99,1.09
+DJ_089_R.cop_4MF_sourceM_mesh20_ss1,DJ_089,R_cop_M,M,MF,shrub,away ,5.08,20,ss1,2,1.45,0.55
+DJ_090_R.cop_4MF_sourceM_mesh20_ss2,DJ_090,R_cop_M,M,MF,shrub,away ,5.08,20,ss2,2.01,1.34,0.67
+DJ_091_R.cop_4MF_sourceM_mesh200_ss1,DJ_091,R_cop_M,M,MF,shrub,away ,5.08,200,ss1,2.04,1.47,0.57
+DJ_092_R.cop_4MF_sourceM_mesh200_ss2,DJ_092,R_cop_M,M,MF,shrub,away ,5.08,200,ss2,2.08,1.17,0.91
+DJ_093_R.cop_4MF_sourceMF_mesh20_ss1,DJ_093,R_cop_MF,MF,MF,shrub,home,5.08,20,ss1,2.04,0.95,1.09
+DJ_094_R.cop_4MF_sourceMF_mesh20_ss2,DJ_094,R_cop_MF,MF,MF,shrub,home,5.08,20,ss2,2.02,0.76,1.26
+DJ_095_R.cop_4MF_sourceMF_mesh200_ss1,DJ_095,R_cop_MF,MF,MF,shrub,home,5.08,200,ss1,2,1.65,0.35
+DJ_096_R.cop_4MF_sourceMF_mesh200_ss2,DJ_096,R_cop_MF,MF,MF,shrub,home,5.08,200,ss2,2.08,1.14,0.94
+DJ_097_C.lax_2M_sourceM_mesh20_ss1,DJ_097,C_laxum_M,M,M,grass,home,5.08,20,ss1,2,1.17,0.83
+DJ_098_C.lax_2M_sourceM_mesh20_ss2,DJ_098,C_laxum_M,M,M,grass,home,5.08,20,ss2,2.03,0.69,1.34
+DJ_099_C.lax_2M_sourceM_mesh200_ss1,DJ_099,C_laxum_M,M,M,grass,home,5.08,200,ss1,2.08,1.52,0.56
+DJ_100_C.lax_2M_sourceM_mesh200_ss2,DJ_100,C_laxum_M,M,M,grass,home,5.08,200,ss2,2,1.14,0.86
+DJ_101_C.lax_2M_sourceMF_mesh20_ss1,DJ_101,C_ laxum_MF,MF,M,grass,away ,5.08,20,ss1,2,1.39,0.61
+DJ_102_C.lax_2M_sourceMF_mesh20_ss2,DJ_102,C_ laxum_MF,MF,M,grass,away ,5.08,20,ss2,2.06,1.43,0.63
+DJ_103_C.lax_2M_sourceMF_mesh200_ss1,DJ_103,C_ laxum_MF,MF,M,grass,away ,5.08,200,ss1,2.03,1.32,0.71
+DJ_104_C.lax_2M_sourceMF_mesh200_ss2,DJ_104,C_ laxum_MF,MF,M,grass,away ,5.08,200,ss2,2.04,0.85,1.19
+DJ_105_C.lax_2MF_sourceM_mesh20_ss1,DJ_105,C_laxum_M,M,MF,grass,away ,5.08,20,ss1,2.04,1.37,0.67
+DJ_106_C.lax_2MF_sourceM_mesh20_ss2,DJ_106,C_laxum_M,M,MF,grass,away ,5.08,20,ss2,2.05,1.44,0.61
+DJ_107_C.lax_2MF_sourceM_mesh200_ss1,DJ_107,C_laxum_M,M,MF,grass,away ,5.08,200,ss1,2.01,0.93,1.08
+DJ_108_C.lax_2MF_sourceM_mesh200_ss2,DJ_108,C_laxum_M,M,MF,grass,away ,5.08,200,ss2,2,0.79,1.21
+DJ_109_C.lax_2MF_sourceMF_mesh20_ss1,DJ_109,C_laxum_MF,MF,MF,grass,home,5.08,20,ss1,2,1.18,0.82
+DJ_110_C.lax_2MF_sourceMF_mesh20_ss2,DJ_110,C_laxum_MF,MF,MF,grass,home,5.08,20,ss2,2,1.75,0.25
+DJ_111_C.lax_2MF_sourceMF_mesh200_ss1,DJ_111,C_laxum_MF,MF,MF,grass,home,5.08,200,ss1,2,1.73,0.27
+DJ_112_C.lax_2MF_sourceMF_mesh200_ss2,DJ_112,C_laxum_MF,MF,MF,grass,home,5.08,200,ss2,2.01,1.58,0.43
+DJ_113_R.cop_2M_sourceM_mesh20_ss1,DJ_113,R_cop_M,M,M,shrub,home,5.08,20,ss1,2.03,1.69,0.34
+DJ_114_R.cop_2M_sourceM_mesh20_ss2,DJ_114,R_cop_M,M,M,shrub,home,5.08,20,ss2,2.03,1.15,0.88
+DJ_115_R.cop_2M_sourceM_mesh200_ss1,DJ_115,R_cop_M,M,M,shrub,home,5.08,200,ss1,2.06,1.36,0.7
+DJ_116_R.cop_2M_sourceM_mesh200_ss2,DJ_116,R_cop_M,M,M,shrub,home,5.08,200,ss2,2.02,1.09,0.93
+DJ_117_R.cop_2M_sourceMF_mesh20_ss1,DJ_117,R_cop_MF,MF,M,shrub,away ,5.08,20,ss1,2,1.11,0.89
+DJ_118_R.cop_2M_sourceMF_mesh20_ss2,DJ_118,R_cop_MF,MF,M,shrub,away ,5.08,20,ss2,2.06,1.24,0.82
+DJ_119_R.cop_2M_sourceMF_mesh200_ss1,DJ_119,R_cop_MF,MF,M,shrub,away ,5.08,200,ss1,2,1.86,0.14
+DJ_120_R.cop_2M_sourceMF_mesh200_ss2,DJ_120,R_cop_MF,MF,M,shrub,away ,5.08,200,ss2,2.08,1.77,0.31
+DJ_121_R.cop_2MF_sourceM_mesh20_ss1,DJ_121,R_cop_M,M,MF,shrub,away ,5.08,20,ss1,2.07,1.18,0.89
+DJ_122_R.cop_2MF_sourceM_mesh20_ss2,DJ_122,R_cop_M,M,MF,shrub,away ,5.08,20,ss2,2.02,1.49,0.53
+DJ_123_R.cop_2MF_sourceM_mesh200_ss1,DJ_123,R_cop_M,M,MF,shrub,away ,5.08,200,ss1,2,1.03,0.97
+DJ_124_R.cop_2MF_sourceM_mesh200_ss2,DJ_124,R_cop_M,M,MF,shrub,away ,5.08,200,ss2,2.04,1.31,0.73
+DJ_125_R.cop_2MF_sourceMF_mesh20_ss1,DJ_125,R_cop_MF,MF,MF,shrub,home,5.08,20,ss1,2.08,0.81,1.27
+DJ_126_R.cop_2MF_sourceMF_mesh20_ss2,DJ_126,R_cop_MF,MF,MF,shrub,home,5.08,20,ss2,2.06,0.59,1.47
+DJ_127_R.cop_2MF_sourceMF_mesh200_ss1,DJ_127,R_cop_MF,MF,MF,shrub,home,5.08,200,ss1,2.06,1.35,0.71
+DJ_128_R.cop_2MF_sourceMF_mesh200_ss2,DJ_128,R_cop_MF,MF,MF,shrub,home,5.08,200,ss2,2.02,1.11,0.91

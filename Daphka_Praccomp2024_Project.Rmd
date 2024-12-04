@@ -1,0 +1,84 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+
+```{r}
+setwd("C:/Users/daphk/praccomp2024/") 
+```
+
+
+
+```{r}
+library(readxl)
+```
+(WRC_2024_Litterbag_Decomposition <- read_excel("WRC_2024_Litterbag_Decomposition.xlsx"))
+
+```{r}
+write.csv ("WRC_2024_Litterbag_Decomposition.csv")
+```
+
+```{r}
+litter.decomp <- read.csv("WRC_2024_Litterbag_Decomposition.csv", header=TRUE)
+```
+
+```{r}
+litter.decomp$mass_lost_g
+```
+
+```{r}
+attach(litter.decomp)
+```
+
+
+```{r}
+mean(mass_lost_g)
+```
+
+
+```{r}
+vioplot(litter.decomp$mass_lost_g~litter.decomp$plant, col= "salmon")
+vioplot(litter.decomp$mass_lost_g~litter.decomp$mesh_size_µm, col= "skyblue")
+vioplot(litter.decomp$mass_lost_g)
+```
+
+```{r}
+library(tidyverse)
+
+litter.decomp.plant.buried <- litter.decomp %>%
+  group_by(plant, buried_plot) %>%
+  mutate(plant.buried = paste(plant, buried_plot, sep='_'))
+  
+  ggplot(litter.decomp.plant.buried, aes(x=plant.buried, y=mass_lost_g, fill=plant.buried)) +
+    geom_violin() +
+    geom_boxplot(fill=NA)
+```
+
+```{r}
+mass.loss.plant.buried.aov <- aov(litter.decomp.plant.buried$mass_lost_g ~ litter.decomp.plant.buried$plant + 
+                                    litter.decomp.plant.buried$buried_plot +
+                                    litter.decomp.plant.buried$mesh_size_µm)
+
+summary(mass.loss.plant.buried.aov)
+
+```
+
+```{r}
+TukeyHSD(mass.loss.plant.buried.aov)
+```
+

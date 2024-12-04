@@ -1,0 +1,151 @@
+# BIOL 6220 Fall 2024 R Final Project
+
+
+
+
+## Practical Computing Fall 2024
+
+
+
+
+```{r}
+setwd("C:/Users/daphk/praccomp2024/")
+```
+
+
+
+
+```{r}
+read.csv("C:/Users/daphk/OneDrive/praccomp2024/Daphka_WRC_2024_Litterbag_Decomposition.csv")
+```
+
+
+
+
+
+```{r}
+library(tidyverse)
+```
+
+
+
+
+
+```{r}
+litter.decomp <- read.csv("C:/Users/daphk/OneDrive/praccomp2024/Daphka_WRC_2024_Litterbag_Decomposition.csv", header=TRUE)
+```
+
+
+
+
+```{r}
+litter.decomp$mass_lost_g
+```
+
+
+
+```{r}
+attach(litter.decomp)
+```
+
+
+#### Library Installation
+
+```{r}
+library("dplyr")
+library(ggridges)
+library(ggplot2)
+library(viridis)
+library(devtools)
+library(ggbiplot)
+#install.packages("vioplot")
+library(vioplot)
+```
+
+
+
+
+
+#### Vioplot for Litter Data
+
+```{r}
+vioplot(litter.decomp$mass_lost_g~litter.decomp$plant, col= "salmon")
+```
+
+
+
+
+```{r}
+vioplot(litter.decomp$mass_lost_g~litter.decomp$mesh_size_µm, col= "skyblue")
+vioplot(litter.decomp$mass_lost_g)
+```
+
+
+
+
+
+```{r}
+litter.decomp.plant.buried <- litter.decomp %>%
+  group_by(plant, buried_plot) %>%
+  mutate(plant.buried = paste(plant, buried_plot, sep='_'))
+  
+  ggplot(litter.decomp.plant.buried, aes(x=plant.buried, y=mass_lost_g, fill=plant.buried)) +
+    geom_violin() +
+    geom_boxplot(fill=NA)
+```
+
+
+
+
+```{r}
+litter.decomp.plant.source <- litter.decomp %>%
+  group_by(plant, source_plot_label) %>%
+  mutate(plant.source = paste(plant, source_plot_label, sep='_'))
+  
+  ggplot(litter.decomp.plant.source, aes(x=plant.source, y=mass_lost_g, fill=plant.source)) +
+    geom_violin() +
+    geom_boxplot(fill=NA)
+```
+
+
+
+
+
+```{r}
+litter.decomp.plant.mesh <- litter.decomp %>%
+  group_by(plant, mesh_size_µm) %>%
+  mutate(plant.mesh = paste(plant, mesh_size_µm, sep='_'))
+  
+  ggplot(litter.decomp.plant.mesh, aes(x=plant.mesh, y=mass_lost_g, fill=plant.mesh)) +
+    geom_violin() +
+    geom_boxplot(fill=NA)
+```
+
+
+
+
+
+```{r}
+mass.loss.plant.buried.aov <- aov(litter.decomp.plant.buried$mass_lost_g ~ litter.decomp.plant.buried$plant + 
+                                    litter.decomp.plant.buried$buried_plot +
+                                    litter.decomp.plant.buried$mesh_size_µm)
+ 
+summary(mass.loss.plant.buried.aov)
+
+```
+
+
+
+
+
+```{r}
+TukeyHSD(mass.loss.plant.buried.aov)
+```
+
+
+
+
+
+
+
+
