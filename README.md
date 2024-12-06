@@ -1,1 +1,5 @@
-Project Summary
+Final Praccomp 2024 Presentation--Daphka Joseph
+The main objective of this project ties into my research question: 'To what extent does nutrient context and soil moisture variability influence plant root decomposition rate and how does that affect C storage potential?' 
+I chose two plant types: grass vs. shrub species that were sourced in either fertilized or unfertilized plots at West Research Campus (WRC). Roots were placed in nylon mesh bags of either 20 um (allows microbial access only) vs 200 um (macrofauna allowed). They were buried in either fertilized or unfertilized plots; in which mass lost will be calculated. 
+One problem associated with my research was creating a graph to visualize the correlation between buried plant types (grass vs. shrub) and rate of mass lost. There were a few simple R codes that helped create these graphs.
+For future reference (my thesis), graphs will look different since I will be able to input my actual data. Therefore, I can use this project as a guide to see how this compares to my own data. 
